@@ -19,15 +19,19 @@ export class Service{
         try{
             return await this.databases.createDocument(config.appwriteDatabaseId,config.appwriteCollectionId,slug,{
 
-                tittle,
+                title,
                 
                 content,
                 featuredimage,
                 status,
                 userId}
+               
 
             )
 }
+ catch(error){
+    console.log(err0r)
+ }
 
 }
 
