@@ -30,7 +30,7 @@ export class Service{
             )
 }
  catch(error){
-    console.log(err0r)
+    console.log(error)
  }
 
 }
