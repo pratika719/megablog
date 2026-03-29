@@ -1,7 +1,8 @@
 import React from 'react'
-import link from 
 
-function container({children}) {
+
+
+function Container({children}) {
   return (
     <div className='w-full max-w-7xl mx-auto px-4'>
       {children}
@@ -12,5 +13,4 @@ function container({children}) {
   )
 }
 
-export default container
-{children}
+export default Container

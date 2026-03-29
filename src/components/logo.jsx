@@ -1,11 +1,12 @@
 import React from 'react'
 
-
-const logo = ({width='100px'}) => {
-    
-  return (
-    <div>logo</div>
-  )
+// FIX: component was lowercase 'logo' — React components must be PascalCase to render as JSX
+const Logo = ({ width = '100px' }) => {
+    return (
+        <div style={{ width }} className="font-bold text-xl">
+            MegaBlog
+        </div>
+    )
 }
 
-export default logo
+export default Logo
